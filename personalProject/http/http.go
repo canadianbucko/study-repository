@@ -261,6 +261,8 @@ func StartServer() {
 
 }
 
+// what I want t say s sofjasdfidasfijasigit
+
 /* шо имеем
 ++StartPlant() router.Path("/start").Methods("POST").HandlerFunc(start)
 ++KillPlant() router.Path("/stop").Methods("POST").HandlerFunc(stop)
