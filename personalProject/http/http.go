@@ -259,6 +259,8 @@ func StartServer() {
 		fmt.Println("error starting http server", err)
 	}
 
+	// haha tests
+
 }
 
 /* шо имеем
