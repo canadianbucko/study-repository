@@ -1,4 +1,4 @@
-package simple_connection
+package simple_sql
 
 import (
 	"context"

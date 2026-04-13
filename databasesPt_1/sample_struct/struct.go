@@ -12,14 +12,7 @@ type Book struct {
 	ReadAt      *time.Time
 }
 
-func NewBook(title string,
-	author string,
-	review string,
-	releaseDate int,
-	wasRead bool,
-	readAt *time.Time,
-) Book {
-
+func NewBook(title string, author string, review string, releaseDate int, wasRead bool, readAt *time.Time) Book {
 	return Book{
 		Title:       title,
 		Author:      author,

@@ -1,4 +1,4 @@
-package simple_creation
+package simple_sql
 
 import (
 	"context"

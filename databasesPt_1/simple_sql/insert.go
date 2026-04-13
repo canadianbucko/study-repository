@@ -1,4 +1,4 @@
-package simple_insert
+package simple_sql
 
 import (
 	"context"
