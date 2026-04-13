@@ -1,0 +1,16 @@
+# logs
+*.log
+logs/
+**/logs/
+
+# temp / local env
+.env
+*.tmp
+*.temp
+
+# gitlab local data/config/secrets
+uni/lab8/devops/gitlab/config/gitlab-secrets.json
+uni/lab8/devops/gitlab/config/initial_root_password
+uni/lab8/devops/gitlab/config/ssh_host_*
+uni/lab8/devops/gitlab/data/
+uni/lab8/devops/gitlab/logs/
