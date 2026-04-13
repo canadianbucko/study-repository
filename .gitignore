@@ -14,3 +14,28 @@ uni/lab8/devops/gitlab/config/initial_root_password
 uni/lab8/devops/gitlab/config/ssh_host_*
 uni/lab8/devops/gitlab/data/
 uni/lab8/devops/gitlab/logs/
+
+
+# binaries
+*.exe
+*.dll
+*.so
+*.out
+
+# editors
+.vscode/
+.idea/
+
+# OS garbage
+.DS_Store
+Thumbs.db
+
+# env/secrets
+.env
+*.key
+*.pem
+*.crt
+
+# Go
+bin/
+coverage.out
