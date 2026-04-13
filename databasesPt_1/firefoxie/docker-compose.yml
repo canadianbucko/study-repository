@@ -1,0 +1,17 @@
+services:
+  firefox:
+    image: lscr.io/linuxserver/firefox:latest
+    container_name: firefox
+    ports:
+      - "3000:3000"
+    shm_size: "2gb"
+    environment:
+      PUID: 1000
+      PGID: 1000
+      TZ: Europe/Riga
+    volumes:
+      - firefox_config:/config
+    restart: unless-stopped
+
+volumes:
+  firefox_config:
