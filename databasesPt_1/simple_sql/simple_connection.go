@@ -9,7 +9,7 @@ import (
 // "postgres://YourUserName:YourPassword@YourHostName:5432/YourDatabaseName"
 
 func CreateConnection(ctx context.Context) (*pgx.Conn, error) {
-	connectionString := "postgres://postgres:1234@localhost:5432/mydb"
+	connectionString := "postgres://postgres:1234@localhost:54332/mydb"
 
 	conn, err := pgx.Connect(ctx, connectionString)
 
