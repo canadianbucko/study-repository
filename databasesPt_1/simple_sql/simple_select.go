@@ -15,6 +15,7 @@ func SelectRows(ctx context.Context, conn *pgx.Conn) ([]BookModel, error) {
 	`
 
 	rows, err := conn.Query(ctx, sqlQuery)
+	defer rows.Close()
 	if err != nil {
 		return nil, err
 	}

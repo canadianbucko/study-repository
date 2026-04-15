@@ -75,4 +75,7 @@ func main() {
 		panic(err)
 	}
 
+	if err := simple_sql.ListPage(ctx, conn, 2); err != nil {
+		panic(err)
+	}
 }
