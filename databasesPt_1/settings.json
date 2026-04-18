@@ -1,0 +1,138 @@
+{
+    "go.toolsManagement.autoUpdate": true,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash",
+            "icon": "terminal-git-bash"
+        },
+        "Ubuntu (WSL)": {
+            "path": "C:\\WINDOWS\\System32\\wsl.exe",
+            "args": [
+                "-d",
+                "Ubuntu"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "editor.minimap.enabled": false,
+    "git.autofetch": true,
+
+    "workbench.colorTheme": "Quiet Light",
+
+    "workbench.colorCustomizations": {
+        "editor.background": "#fdf6e3",
+        "editor.foreground": "#657b83",
+
+        "sideBar.background": "#eee8d5",
+        "sideBar.foreground": "#586e75",
+        "sideBar.border": "#e1dbca",
+
+        "activityBar.background": "#eee8d5",
+        "activityBar.foreground": "#586e75",
+        "activityBar.border": "#e1dbca",
+        "activityBar.inactiveForeground": "#93a1a1",
+
+        "titleBar.activeBackground": "#eee8d5",
+        "titleBar.activeForeground": "#586e75",
+        "titleBar.inactiveBackground": "#f5efdc",
+        "titleBar.inactiveForeground": "#93a1a1",
+        "titleBar.border": "#e1dbca",
+
+        "tab.activeBackground": "#fdf6e3",
+        "tab.activeForeground": "#586e75",
+        "tab.inactiveBackground": "#eee8d5",
+        "tab.inactiveForeground": "#93a1a1",
+        "tab.border": "#e1dbca",
+
+        "editorGroupHeader.tabsBackground": "#eee8d5",
+        "editorGroupHeader.border": "#e1dbca",
+
+        "statusBar.background": "#eee8d5",
+        "statusBar.foreground": "#586e75",
+        "statusBar.border": "#e1dbca",
+
+        "panel.background": "#fdf6e3",
+        "panel.border": "#e1dbca",
+        "panelTitle.activeForeground": "#586e75",
+        "panelTitle.inactiveForeground": "#93a1a1",
+
+        "list.hoverBackground": "#f5efdc",
+        "list.activeSelectionBackground": "#e8e1cc",
+        "list.activeSelectionForeground": "#586e75",
+        "list.inactiveSelectionBackground": "#ece5d0",
+        "list.inactiveSelectionForeground": "#586e75",
+        "list.highlightForeground": "#586e75",
+        "list.focusOutline": "#d8d2bf",
+
+        "input.background": "#fffdf6",
+        "input.foreground": "#586e75",
+        "input.border": "#d8d2bf",
+
+        "dropdown.background": "#fffdf6",
+        "dropdown.foreground": "#586e75",
+        "dropdown.border": "#d8d2bf",
+
+        "editorLineNumber.foreground": "#93a1a1",
+        "editorLineNumber.activeForeground": "#586e75",
+
+        "editorIndentGuide.background1": "#e6dfcc",
+        "editorIndentGuide.activeBackground1": "#c8c1ad",
+
+        "editorWhitespace.foreground": "#e6dfcc",
+        "editorCursor.foreground": "#586e75",
+
+        "editorError.foreground": "#dc322f",
+        "editorWarning.foreground": "#b58900",
+        "editorInfo.foreground": "#268bd2",
+        "editorHint.foreground": "#93a1a1",
+
+        "focusBorder": "#d8d2bf",
+        "widget.border": "#d8d2bf",
+        "selection.background": "#d8d2bf",
+        "descriptionForeground": "#586e75",
+
+        "inputOption.activeBorder": "#d8d2bf",
+        "inputOption.activeBackground": "#ece5d0",
+        "inputOption.activeForeground": "#586e75",
+
+        "badge.background": "#d8d2bf",
+        "badge.foreground": "#586e75",
+
+        "button.background": "#e8e1cc",
+        "button.foreground": "#586e75",
+        "button.hoverBackground": "#ddd6c3",
+
+        "progressBar.background": "#b58900",
+
+        "pickerGroup.border": "#d8d2bf",
+        "pickerGroup.foreground": "#586e75",
+
+        "settings.modifiedItemIndicator": "#b58900",
+
+        "editorSuggestWidget.border": "#d8d2bf",
+        "editorSuggestWidget.selectedBackground": "#ece5d0",
+
+        "quickInput.background": "#fdf6e3",
+        "quickInput.foreground": "#586e75",
+        "quickInputList.focusBackground": "#ece5d0",
+
+        "menu.selectionBackground": "#ece5d0",
+        "menu.selectionForeground": "#586e75",
+        "menu.border": "#d8d2bf"
+    },
+    "explorer.confirmDragAndDrop": false
+}
