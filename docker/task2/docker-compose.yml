@@ -1,0 +1,6 @@
+services:
+  application:
+    build: .
+    container_name: my-little-server
+    ports: 
+      - "9999:9999"
