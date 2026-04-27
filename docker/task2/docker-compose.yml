@@ -4,3 +4,18 @@ services:
     container_name: my-little-server
     ports: 
       - "9999:9999"
+  postgres:
+    image: postgres:16
+    container_name: postgres-docker
+    environment:
+      POSTGRES_DB: mydb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1234
+    ports: 
+    - "54332:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data #смотри вот сначала postgres: 
+       #жто мы для докера пишем как с портами вот назови это вот так а справа что там будет!
+       #то есть постгрес_дата докер его так будет звать а справа этот файл!
+volumes: 
+  postgres_data:

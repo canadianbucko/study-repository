@@ -6,7 +6,7 @@ service-run:
 
 
 migrate-up:
-	migrate -path migrations -database ${CONN_STRING} up 
+	migrate -path migrations -database ${MIGRATE_CONN_STRING} up 
 
 migrate-down:
-	migrate -path migrations -database ${CONN_STRING} down
+	migrate -path migrations -database ${MIGRATE_CONN_STRING} down

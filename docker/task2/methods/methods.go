@@ -73,6 +73,7 @@ func GetEmployees(w http.ResponseWriter, r *http.Request) {
 	responseMapFinal, _ := json.Marshal(employeeMap)
 	w.WriteHeader(http.StatusOK)
 	w.Write(responseMapFinal)
+	// ?
 }
 
 func DeleteEmployee(w http.ResponseWriter, r *http.Request) {
